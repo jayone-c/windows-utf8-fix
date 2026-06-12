@@ -1,0 +1,10 @@
+# windows-utf8-fix — Git attributes
+# PowerShell scripts: CRLF on Windows (native), LF in repo
+*.ps1 text eol=crlf
+
+# Markdown / YAML: LF in repo, auto convert on checkout
+*.md  text eol=lf
+*.yml text eol=lf
+
+# License: LF
+LICENSE text eol=lf
