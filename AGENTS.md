@@ -1,26 +1,8 @@
-# AGENTS.md — Alias of CLAUDE.md
+# AGENTS.md — Project Guide for AI Agents
 
-> ⚠️ **This file is an alias of [`CLAUDE.md`](CLAUDE.md).**
->
-> Different AI coding tools look for different project-context filenames:
-> - **Claude Code** → `CLAUDE.md`
-> - **Codex / 其他 agent** → `AGENTS.md` (newer convention)
->
-> To keep both naming conventions working without duplicating content, this file
-> is kept in sync with `CLAUDE.md`. If you edit one, **edit the other** to match
-> (or run `sync-agents-md.ps1` below).
+> 📖 **Read this first** if you are an AI coding agent (Claude Code, Codex, Qoder, Trae, Cursor, Windsurf, etc.) working on the `windows-utf8-fix` project.
 
----
-
-<!--
-  BEGIN: auto-synced content with CLAUDE.md
-  Last synced: 2026-06-12
-  Source SHA: see `git log -1 -- CLAUDE.md`
--->
-
-> 📖 **Read this first** if you are an AI coding agent (Claude Code, Codex, Qoder, Trae, etc.) working on the `windows-utf8-fix` project.
-
-This file follows the [agent.md / CLAUDE.md convention](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) used by major AI coding tools. It contains project context, conventions, and guardrails you need to work effectively — without reading the entire codebase first.
+This file follows the [AGENTS.md open standard](https://agents.md/) maintained by OpenAI and the Linux Foundation, and is recognized by all major AI coding tools. It contains project context, conventions, and guardrails you need to work effectively — without reading the entire codebase first.
 
 ---
 
@@ -41,8 +23,7 @@ This file follows the [agent.md / CLAUDE.md convention](https://docs.anthropic.c
 ├── README.md                    # Project landing page (GitHub)
 ├── CHANGELOG.md                 # Version history (Keep a Changelog)
 ├── LICENSE                      # MIT
-├── CLAUDE.md                    # ⭐ This file (for AI agents)
-├── AGENTS.md                    # ⭐ Alias of CLAUDE.md (for Codex etc.)
+├── AGENTS.md                    # ⭐ This file (for AI agents)
 ├── .gitignore                   # Excludes backups, OS junk, IDE files
 ├── .gitattributes               # Forces CRLF for .ps1, LF for .md
 ├── install.ps1                  # One-line iwr|iex entry point
@@ -270,5 +251,3 @@ When adding an IDE, verify it by:
 - **PowerShell versions tested**: 5.1, 7.6.2
 - **Windows versions tested**: 10 22H2, 11 23H2
 - **commit**: see `git log -1`
-
-<!-- END: auto-synced content with CLAUDE.md -->

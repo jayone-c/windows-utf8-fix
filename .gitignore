@@ -31,4 +31,3 @@ test-output/
 
 # Exceptions (allow specific tracked scripts)
 !install.ps1
-!scripts/sync-agents-md.ps1
