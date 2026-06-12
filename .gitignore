@@ -1,7 +1,7 @@
-# PowerShell
-*.ps1
+# PowerShell (ignore by default; allow-list specific entry-point scripts)
 *.psm1
 *.psd1
+# Top-level install.ps1 and scripts/sync-agents-md.ps1 are tracked explicitly
 
 # Backup files (auto-created by install.ps1)
 *.utf8fix-bak-*
@@ -29,5 +29,6 @@ desktop.ini
 *.log
 test-output/
 
-# Exceptions
+# Exceptions (allow specific tracked scripts)
 !install.ps1
+!scripts/sync-agents-md.ps1
