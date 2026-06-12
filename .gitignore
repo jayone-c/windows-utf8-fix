@@ -1,0 +1,30 @@
+# PowerShell
+*.ps1
+*.psm1
+*.psd1
+
+# Backup files (auto-created by install.ps1)
+*.utf8fix-bak-*
+*.bak
+*.orig
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# Test
+*.log
+test-output/
